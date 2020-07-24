@@ -111,20 +111,21 @@ if (isset($_POST['name'])){
   
   if($u->senha != $u->confirmarsenha){
     
-    echo("Senhas Não Concidem");
+    echo("<strong> Senhas Não Concidem</strong>");
+    echo "<br>";
   }
-if(empty ( $u->nome) && empty( $u->telefone) && empty( $u->usuario) && empty( $u->senha) && empty( $u->confirmarsenha) && empty ( $u->cep) &&  empty ( $u->rua) && empty ( $u->bairro) && empty ( $u->numero) && empty ( $u->cidade) && empty ( $u->estado)){
+if(empty ( $u->nome) && empty( $u->telefone) && empty( $u->usuario) && empty( $u->senha) && empty( $u->confirmarsenha) && empty ( $u->cep) &&  empty ( $u->rua) && empty ( $u->bairro) && empty ( $u->numero) && empty ( $u->cidade) && empty ( $u->uf)){
 
-  echo "<strong style='text-align: center'> Preencha todos os campos </strong>";
+  echo "<strong> Preencha todos os campos </strong>";
 
 }
  else {
 
   $u ->criar();
-      echo "<strong > Contato criado com sucesso<br></strong>";
+      echo "<strong > Contato criado com sucesso<br></strong><br>";
 
 
     }
- }
+}
 
 ?>
