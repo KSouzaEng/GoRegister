@@ -35,16 +35,16 @@ Para que o cadastro seja relizado é necesario criar o Banco de dados e a tabela
 
  <!--Criação da Tabela-->
   CREATE TALBLE cadastrousuarios(id_usuario INT(11) AUTO_INCREMENT PRIMARY KEY ,
-   ->  nome VARCHAR(30) NOT NULL, 
+    ->  nome VARCHAR(30) NOT NULL, 
     ->  telefone VARCHAR(30) NOT NULL,
     ->  usuario VARCHAR(40) NOT NULL,
     ->  senha VARCHAR(32) NOT NULL,
-	--> cep VARCHAR(10) NOT NULL,
-	--> rua VARCHAR(20) NOT NULL,
-	-->bairro VARCHAR(20) NOT NULL.
-	--> numero  VARCHAR(10) NOT NULL.
-	--> cidade VARCHAR(20) NOT NULL,
-	--> estado VARCHAR(20) NOT NULL);
+    -> cep VARCHAR(10) NOT NULL,
+    -> rua VARCHAR(20) NOT NULL,
+     ->bairro VARCHAR(20) NOT NULL.
+     -> numero  VARCHAR(10) NOT NULL.
+     -> cidade VARCHAR(20) NOT NULL,
+     -> estado VARCHAR(20) NOT NULL);
 ```
 ## Features
 
