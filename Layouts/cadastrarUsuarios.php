@@ -121,7 +121,7 @@ if(empty ( $u->nome) && empty( $u->telefone) && empty( $u->usuario) && empty( $u
  else {
 
   $u ->criar();
-      echo "Contato criado com sucesso<br>";
+      echo "<strong > Contato criado com sucesso<br></strong>";
 
 
     }

@@ -54,7 +54,7 @@ if ($u->logar($u->usuario,$u->senha)){
 }
   else{
 
-    echo "Email ou senha estão incorretos";
+   echo "<p><font face=\"Verdana\" color=\"#FF0000\" >Email ou senha estão incorretos</font></p>";
   }
 
 
