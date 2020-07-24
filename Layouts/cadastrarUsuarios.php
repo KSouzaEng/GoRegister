@@ -115,7 +115,7 @@ if (isset($_POST['name'])){
   }
 if(empty ( $u->nome) && empty( $u->telefone) && empty( $u->usuario) && empty( $u->senha) && empty( $u->confirmarsenha) && empty ( $u->cep) &&  empty ( $u->rua) && empty ( $u->bairro) && empty ( $u->numero) && empty ( $u->cidade) && empty ( $u->estado)){
 
-  echo ("Preencha todos os campos");
+  echo "<strong style='text-align: center'> Preencha todos os campos </strong>";
 
 }
  else {
