@@ -31,7 +31,7 @@ Para que o cadastro seja relizado é necesario criar o Banco de dados e a tabela
 
 ```shell
 <!--Criação do Bnaco de dados-->
- CREATE DATABASE bemoluser;
+ CREATE DATABASE usuarios;
 
  <!--Criação da Tabela-->
   CREATE TALBLE cadastrousuarios(id_usuario INT(11) AUTO_INCREMENT PRIMARY KEY ,
