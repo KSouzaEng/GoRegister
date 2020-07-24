@@ -22,7 +22,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 Para iniciar o desenvolvimento, é necessário clonar o projeto do GitHub num diretório de sua preferência:
 ```shell
 cd "diretorio de sua preferencia" 
-git clone git@github.com:KSouzaEng/GoRegister.git  
+git clone git@github.com:KSouzaEng/GoRegister.git
 ```
 
 ## Construção 
